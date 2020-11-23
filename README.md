@@ -1,3 +1,6 @@
 # Social-Advertising-And-Influencing
 Our primary goal was to make the product viral in the market and minimize the money one has to spend on advertising his/her product to the desirable number of customers. For this we had to find a suitable ranking method to rank the population. We looked at several algorithms that have been designed to identify the most influential regulatory points within a network. However, all those  methods did  not address all the topological dimensions of a network which limits their applicability. To overcome this computational deficit,we used an algorithm termed Integrated Value of Influence (IVI), which integrates the most important and commonly used network centrality measures in an unbiased way. Next we had to minimize the cost of advertising assuming that the advertising fee is directly related to the popularity of a person. Here, instead of naively advertising to all popular people we devised a method to identify the most preferable person to advertise at a given point keeping the expenses in mind. In some cases we were able to achieve a cost difference of 20+% between advertising naively to popular people and the advertising method developed by us.
  
+## Dataset
+Dataset required to run the code can be downloaded from
+https://snap.stanford.edu/data/egonets-Facebook.html
